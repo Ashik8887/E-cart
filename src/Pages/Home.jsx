@@ -62,7 +62,7 @@ function Home() {
             </Card>
           </Col>
           ))
-            }: <div className='mt-5 text-center text-danger fw-bolder'>Product not found!!!</div>
+            }
             <div className="d-flex justify-content-center align-items-center ms-5 fw-bolder">
               <span onClick={navigatePrev} className='btn btn-link fs-5'><i class="fa-solid fa-angles-left fw-bolder"></i></span>
               <span>{currentPage} of {totalPages}</span>
