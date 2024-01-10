@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Navbar, Container, Nav, Badge } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { productSearch } from '../Redux/slices/productSlice';
+import { productSearch } from '../Redux/Slices/productSlice';
 
 
 function Header({insideHome}) {
